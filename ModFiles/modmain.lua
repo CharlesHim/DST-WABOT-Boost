@@ -5,7 +5,7 @@ GLOBAL.setmetatable(env, {__index = function(t, k) return GLOBAL.rawget(GLOBAL, 
 --tweak
 
 TUNING.STORAGE_ROBOT_WORK_RADIUS = 20 -- 20 walls
-TUNING.STORAGE_ROBOT_FUEL = total_day_time * 10 -- 10 days
+TUNING.STORAGE_ROBOT_FUEL = 30 * 16 * 10 -- 10 days
 
 TUNING.STORAGE_ROBOT_WALKSPEED.FULL = 8 -- keep 8 speed
 TUNING.STORAGE_ROBOT_WALKSPEED.MED = 8
